@@ -1,4 +1,5 @@
 -- SQL ZOO Tutorial 6 JOIN --
+-- https://sqlzoo.net/wiki/The_JOIN_operation
 
 -- 1. Modify it to show the matchid and player name for all goals scored by Germany. To identify German players, check for: teamid = 'GER' --
 SELECT matchid, player FROM goal 
@@ -93,6 +94,7 @@ SELECT mdate,
 
 
 -- SQL ZOO Tutorial 7 More JOIN --
+-- https://sqlzoo.net/wiki/More_JOIN_operations
 
 -- 1. List the films where the yr is 1962 [Show id, title] --
 SELECT id, title
